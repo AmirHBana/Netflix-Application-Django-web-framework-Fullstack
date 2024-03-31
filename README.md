@@ -10,7 +10,7 @@
 
 <hr>
 
-<h3><strong> $> git clone github.com/AmirHBana/Netflix-Application-Django-web-framework-Fullstack.git </strong></h3>
+<h3><strong> $> git clone https://www.github.com/AmirHBana/Netflix-Application-Django-web-framework-Fullstack.git </strong></h3>
 
 <hr>
 
