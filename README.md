@@ -6,15 +6,12 @@
 <br><br>
 
 <p> At first you need go to the directory you want to clone this project </p>
+
 <br>
 
-<hr>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>$> git clone https://www.github.com/AmirHBana/Netflix-Application-Django-web-framework-Fullstack.git</pre></div>
 
-<h3><strong> $> git clone https://www.github.com/AmirHBana/Netflix-Application-Django-web-framework-Fullstack.git </strong></h3>
-
-<hr>
-
-<br><br>
+<br>
 
 <p> then you have to pull this project to your directory<br>
   
@@ -24,33 +21,23 @@
   after you activate your venv install python packages below in to your venv
 </p>
 
-<hr>
-
-<br>
-
-<h3> <strong> <hr>
-        $> pip install django==4.2.8 <br> <hr>
-        $> pip install django-ckeditor==6.0.0 <br> <hr>
-        $> pip install django-ckeditor-5==0.1.6 <br> <hr>
-        $> pip install django-crispy-forms==1.12.0 <br> <hr>
-        $> pip install django-debug-toolbar==2.2 <br> <hr>
-        $> pip install django-dotenv==1.4.2 <br> <hr>
-        $> pip install django-environ==0.9.0 <br> <hr>
-        $> pip install django-social-share==2.2.1 <br> <hr>
-        $> pip install django-static-fontawesome==5.14.0.0 <br> <hr>
-        $> pip install django-taggit==3.0.0 <br> <hr>
-        $> pip install gunicorn==20.0.4 <br> <hr>
-        $> pip install Pillow==9.1.0 <br> <hr>
-        $> pip install psycopg2-binary==2.9.1 <br> <hr>
-        $> pip install django-import-export <br> <hr>
-        $> pip install django-tailwind <br> <hr>
-        $> pip install django-allauth <br> <hr>
-        $> pip install django-jazzmin <br> <hr>
-</strong> </h3>
-
-<br>
-
-<hr>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>pip install django==4.2.8</pre></div>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>pip install django-ckeditor==6.0.0</pre></div>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>pip install django-allauth</pre></div>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>pip install django-tailwind</pre></div>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>pip install django-import-export</pre></div>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>pip install psycopg2-binary==2.9.1</pre></div>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>pip install Pillow==9.1.0</pre></div>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>pip install gunicorn==20.0.4</pre></div>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>pip install django-taggit==3.0.0</pre></div>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>pip install django-static-fontawesome==5.14.0.0</pre></div>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>pip install django-social-share==2.2.1</pre></div>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>pip install django-environ==0.9.0</pre></div>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>pip install django-dotenv==1.4.2</pre></div>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>pip install django-crispy-forms==1.12.0</pre></div>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>pip install django-ckeditor-5==0.1.6</pre></div>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>pip install django-debug-toolbar==2.2</pre></div>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>pip install django-jazzmin</pre></div>
 
 <br>
 
@@ -62,7 +49,12 @@
 
 <hr>
 
-<h3> <strong>  $> python manage.py runserver </strong> </h3>
+
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>$> python manage.py makemigrations</pre></div>
+
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>$> python manage.py migrate</pre></div>
+
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>$> python manage.py runserver</pre></div>
 
 <hr>
 
